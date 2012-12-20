@@ -13,6 +13,7 @@ int main() {
   return 0;
 }
 
+// Sort an array by sleeping
 void sleep_sort(int array[]) {
   pthread_t threads[10];
 
@@ -27,6 +28,7 @@ void sleep_sort(int array[]) {
   }
 }
 
+// Sleep n seconds, and then print n
 void* print_number(void* n) {
   int val = *((int*)n);
   sleep(val);
