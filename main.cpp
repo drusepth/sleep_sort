@@ -33,3 +33,20 @@ void* print_number(void* n) {
   sleep(val);
   printf("%d\n", val);
 }
+
+/*
+Output:
+
+$ g++ -lpthread main.cpp && ./a.out
+2
+6
+6
+6
+7
+8
+9
+15
+20
+22
+
+*/
