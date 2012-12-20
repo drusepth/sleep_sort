@@ -29,7 +29,6 @@ void sleep_sort(int array[]) {
 
 void* print_number(void* n) {
   int val = *((int*)n);
-  // sleep n
   sleep(val);
   printf("%d\n", val);
 }
